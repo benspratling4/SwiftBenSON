@@ -8,6 +8,8 @@
 
 import Foundation
 
+/// parses a type tag, i.e. <....>
+///this should never be your first choice, use the TypedParser instead
 open class TagParser : CollectingBytesParser, ByteParser {
 	
 	public static func parser(reader:BytesReader)->ByteParser? {

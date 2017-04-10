@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// parses a tag followed by a literal
 open class TypedParser : ScopedParser {
 	
 	public static func parser(reader:BytesReader)->ByteParser? {

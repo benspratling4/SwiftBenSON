@@ -35,6 +35,8 @@ open class DataParser : CollectingBytesParser, ByteParser {
 	
 	private var lengthStringBytes:[UInt8] = []
 	
+	private var lenthComponents:[Int] = []
+	
 	public func read(from reader:BytesReader)->ParseAction {
 		guard let byte:UInt8 = reader.read() else { return .invalidFormat }
 		
@@ -45,11 +47,20 @@ open class DataParser : CollectingBytesParser, ByteParser {
 			}
 			return .next
 		}
+		if UnicodeScalar(byte) == "," {
+			guard let lengthString:String = String(data:Data(lengthStringBytes), encoding:.utf8)
+				,let length:Int = Int(lengthString)
+				else { return .invalidFormat }
+			expectedLength = length * (expectedLength ?? 1)
+			lengthStringBytes = []
+			return .next
+		}
+		
 		if UnicodeScalar(byte) == ":" {
 			guard let lengthString:String = String(data:Data(lengthStringBytes), encoding:.utf8)
 				,let length:Int = Int(lengthString)
 				else { return .invalidFormat }
-			expectedLength = length
+			expectedLength = length * (expectedLength ?? 1)
 			readLength = true
 			return .next
 		}

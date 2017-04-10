@@ -7,38 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_42 /* ArrayParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* ArrayParser.swift */; };
-		OBJ_43 /* BenSONable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BenSONable.swift */; };
-		OBJ_44 /* BenSONFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BenSONFormatter.swift */; };
-		OBJ_45 /* BenSONParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* BenSONParseError.swift */; };
-		OBJ_46 /* BenSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BenSONParser.swift */; };
-		OBJ_47 /* ByteParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ByteParser.swift */; };
-		OBJ_48 /* BytesReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* BytesReader.swift */; };
-		OBJ_49 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* DataParser.swift */; };
-		OBJ_50 /* NumericalParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* NumericalParser.swift */; };
-		OBJ_51 /* ObjectParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ObjectParser.swift */; };
-		OBJ_52 /* ParseIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ParseIterator.swift */; };
-		OBJ_53 /* String+BenSONable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* String+BenSONable.swift */; };
-		OBJ_54 /* StringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* StringParser.swift */; };
-		OBJ_55 /* SubscriptPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* SubscriptPath.swift */; };
-		OBJ_56 /* TagParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* TagParser.swift */; };
-		OBJ_57 /* TypedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* TypedParser.swift */; };
-		OBJ_58 /* TypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* TypeSpec.swift */; };
-		OBJ_65 /* ArrayParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ArrayParserTests.swift */; };
-		OBJ_66 /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* DataParserTests.swift */; };
-		OBJ_67 /* NumberParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* NumberParserTests.swift */; };
-		OBJ_68 /* ObjectParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ObjectParserTests.swift */; };
-		OBJ_69 /* StringParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* StringParserTests.swift */; };
-		OBJ_70 /* TypedParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* TypedParserTests.swift */; };
-		OBJ_72 /* SwiftBenSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* SwiftBenSON.framework */; };
+		OBJ_44 /* ArrayParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* ArrayParser.swift */; };
+		OBJ_45 /* BenSONable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BenSONable.swift */; };
+		OBJ_46 /* BenSONFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BenSONFormatter.swift */; };
+		OBJ_47 /* BenSONParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* BenSONParseError.swift */; };
+		OBJ_48 /* BenSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BenSONParser.swift */; };
+		OBJ_49 /* ByteParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ByteParser.swift */; };
+		OBJ_50 /* BytesReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* BytesReader.swift */; };
+		OBJ_51 /* Data+BenSONable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Data+BenSONable.swift */; };
+		OBJ_52 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* DataParser.swift */; };
+		OBJ_53 /* NumericalParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NumericalParser.swift */; };
+		OBJ_54 /* ObjectParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ObjectParser.swift */; };
+		OBJ_55 /* ParseIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ParseIterator.swift */; };
+		OBJ_56 /* String+BenSONable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* String+BenSONable.swift */; };
+		OBJ_57 /* StringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* StringParser.swift */; };
+		OBJ_58 /* SubscriptPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SubscriptPath.swift */; };
+		OBJ_59 /* TagParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* TagParser.swift */; };
+		OBJ_60 /* TypedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* TypedParser.swift */; };
+		OBJ_61 /* TypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* TypeSpec.swift */; };
+		OBJ_68 /* ArrayParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ArrayParserTests.swift */; };
+		OBJ_69 /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* DataParserTests.swift */; };
+		OBJ_70 /* DataWritingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* DataWritingTests.swift */; };
+		OBJ_71 /* NumberParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* NumberParserTests.swift */; };
+		OBJ_72 /* ObjectParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* ObjectParserTests.swift */; };
+		OBJ_73 /* StringParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* StringParserTests.swift */; };
+		OBJ_74 /* TypedParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* TypedParserTests.swift */; };
+		OBJ_76 /* SwiftBenSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* SwiftBenSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5F6FC3A1E9AE93E00ACC71F /* PBXContainerItemProxy */ = {
+		B5F6FC3F1E9B134B00ACC71F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_37;
+			remoteGlobalIDString = OBJ_39;
 			remoteInfo = SwiftBenSON;
 		};
 /* End PBXContainerItemProxy section */
@@ -49,76 +51,79 @@
 		OBJ_12 /* BenSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenSONParser.swift; sourceTree = "<group>"; };
 		OBJ_13 /* ByteParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteParser.swift; sourceTree = "<group>"; };
 		OBJ_14 /* BytesReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BytesReader.swift; sourceTree = "<group>"; };
-		OBJ_15 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
-		OBJ_16 /* NumericalParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericalParser.swift; sourceTree = "<group>"; };
-		OBJ_17 /* ObjectParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectParser.swift; sourceTree = "<group>"; };
-		OBJ_18 /* ParseIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseIterator.swift; sourceTree = "<group>"; };
-		OBJ_19 /* String+BenSONable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BenSONable.swift"; sourceTree = "<group>"; };
-		OBJ_20 /* StringParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringParser.swift; sourceTree = "<group>"; };
-		OBJ_21 /* SubscriptPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptPath.swift; sourceTree = "<group>"; };
-		OBJ_22 /* TagParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagParser.swift; sourceTree = "<group>"; };
-		OBJ_23 /* TypedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedParser.swift; sourceTree = "<group>"; };
-		OBJ_24 /* TypeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSpec.swift; sourceTree = "<group>"; };
-		OBJ_27 /* ArrayParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayParserTests.swift; sourceTree = "<group>"; };
-		OBJ_28 /* DataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
-		OBJ_29 /* NumberParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberParserTests.swift; sourceTree = "<group>"; };
-		OBJ_30 /* ObjectParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectParserTests.swift; sourceTree = "<group>"; };
-		OBJ_31 /* StringParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringParserTests.swift; sourceTree = "<group>"; };
-		OBJ_32 /* TypedParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedParserTests.swift; sourceTree = "<group>"; };
-		OBJ_33 /* DerivedData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DerivedData; sourceTree = SOURCE_ROOT; };
-		OBJ_35 /* SwiftBenSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftBenSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_36 /* SwiftBenSONTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftBenSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_15 /* Data+BenSONable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+BenSONable.swift"; sourceTree = "<group>"; };
+		OBJ_16 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		OBJ_17 /* NumericalParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericalParser.swift; sourceTree = "<group>"; };
+		OBJ_18 /* ObjectParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectParser.swift; sourceTree = "<group>"; };
+		OBJ_19 /* ParseIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseIterator.swift; sourceTree = "<group>"; };
+		OBJ_20 /* String+BenSONable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BenSONable.swift"; sourceTree = "<group>"; };
+		OBJ_21 /* StringParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringParser.swift; sourceTree = "<group>"; };
+		OBJ_22 /* SubscriptPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptPath.swift; sourceTree = "<group>"; };
+		OBJ_23 /* TagParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagParser.swift; sourceTree = "<group>"; };
+		OBJ_24 /* TypedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedParser.swift; sourceTree = "<group>"; };
+		OBJ_25 /* TypeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSpec.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ArrayParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayParserTests.swift; sourceTree = "<group>"; };
+		OBJ_29 /* DataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
+		OBJ_30 /* DataWritingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWritingTests.swift; sourceTree = "<group>"; };
+		OBJ_31 /* NumberParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberParserTests.swift; sourceTree = "<group>"; };
+		OBJ_32 /* ObjectParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectParserTests.swift; sourceTree = "<group>"; };
+		OBJ_33 /* StringParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringParserTests.swift; sourceTree = "<group>"; };
+		OBJ_34 /* TypedParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedParserTests.swift; sourceTree = "<group>"; };
+		OBJ_35 /* DerivedData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DerivedData; sourceTree = SOURCE_ROOT; };
+		OBJ_37 /* SwiftBenSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftBenSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_38 /* SwiftBenSONTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftBenSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_8 /* ArrayParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayParser.swift; sourceTree = "<group>"; };
 		OBJ_9 /* BenSONable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenSONable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_59 /* Frameworks */ = {
+		OBJ_62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_71 /* Frameworks */ = {
+		OBJ_75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_72 /* SwiftBenSON.framework in Frameworks */,
+				OBJ_76 /* SwiftBenSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_25 /* Tests */ = {
+		OBJ_26 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_26 /* SwiftBenSONTests */,
+				OBJ_27 /* SwiftBenSONTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_26 /* SwiftBenSONTests */ = {
+		OBJ_27 /* SwiftBenSONTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_27 /* ArrayParserTests.swift */,
-				OBJ_28 /* DataParserTests.swift */,
-				OBJ_29 /* NumberParserTests.swift */,
-				OBJ_30 /* ObjectParserTests.swift */,
-				OBJ_31 /* StringParserTests.swift */,
-				OBJ_32 /* TypedParserTests.swift */,
+				OBJ_28 /* ArrayParserTests.swift */,
+				OBJ_29 /* DataParserTests.swift */,
+				OBJ_30 /* DataWritingTests.swift */,
+				OBJ_31 /* NumberParserTests.swift */,
+				OBJ_32 /* ObjectParserTests.swift */,
+				OBJ_33 /* StringParserTests.swift */,
+				OBJ_34 /* TypedParserTests.swift */,
 			);
 			name = SwiftBenSONTests;
 			path = Tests/SwiftBenSONTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_34 /* Products */ = {
+		OBJ_36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_35 /* SwiftBenSON.framework */,
-				OBJ_36 /* SwiftBenSONTests.xctest */,
+				OBJ_37 /* SwiftBenSON.framework */,
+				OBJ_38 /* SwiftBenSONTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -128,9 +133,9 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_25 /* Tests */,
-				OBJ_33 /* DerivedData */,
-				OBJ_34 /* Products */,
+				OBJ_26 /* Tests */,
+				OBJ_35 /* DerivedData */,
+				OBJ_36 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -145,16 +150,17 @@
 				OBJ_12 /* BenSONParser.swift */,
 				OBJ_13 /* ByteParser.swift */,
 				OBJ_14 /* BytesReader.swift */,
-				OBJ_15 /* DataParser.swift */,
-				OBJ_16 /* NumericalParser.swift */,
-				OBJ_17 /* ObjectParser.swift */,
-				OBJ_18 /* ParseIterator.swift */,
-				OBJ_19 /* String+BenSONable.swift */,
-				OBJ_20 /* StringParser.swift */,
-				OBJ_21 /* SubscriptPath.swift */,
-				OBJ_22 /* TagParser.swift */,
-				OBJ_23 /* TypedParser.swift */,
-				OBJ_24 /* TypeSpec.swift */,
+				OBJ_15 /* Data+BenSONable.swift */,
+				OBJ_16 /* DataParser.swift */,
+				OBJ_17 /* NumericalParser.swift */,
+				OBJ_18 /* ObjectParser.swift */,
+				OBJ_19 /* ParseIterator.swift */,
+				OBJ_20 /* String+BenSONable.swift */,
+				OBJ_21 /* StringParser.swift */,
+				OBJ_22 /* SubscriptPath.swift */,
+				OBJ_23 /* TagParser.swift */,
+				OBJ_24 /* TypedParser.swift */,
+				OBJ_25 /* TypeSpec.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -162,12 +168,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_37 /* SwiftBenSON */ = {
+		OBJ_39 /* SwiftBenSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_38 /* Build configuration list for PBXNativeTarget "SwiftBenSON" */;
+			buildConfigurationList = OBJ_40 /* Build configuration list for PBXNativeTarget "SwiftBenSON" */;
 			buildPhases = (
-				OBJ_41 /* Sources */,
-				OBJ_59 /* Frameworks */,
+				OBJ_43 /* Sources */,
+				OBJ_62 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,24 +181,24 @@
 			);
 			name = SwiftBenSON;
 			productName = SwiftBenSON;
-			productReference = OBJ_35 /* SwiftBenSON.framework */;
+			productReference = OBJ_37 /* SwiftBenSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_60 /* SwiftBenSONTests */ = {
+		OBJ_63 /* SwiftBenSONTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_61 /* Build configuration list for PBXNativeTarget "SwiftBenSONTests" */;
+			buildConfigurationList = OBJ_64 /* Build configuration list for PBXNativeTarget "SwiftBenSONTests" */;
 			buildPhases = (
-				OBJ_64 /* Sources */,
-				OBJ_71 /* Frameworks */,
+				OBJ_67 /* Sources */,
+				OBJ_75 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_73 /* PBXTargetDependency */,
+				OBJ_77 /* PBXTargetDependency */,
 			);
 			name = SwiftBenSONTests;
 			productName = SwiftBenSONTests;
-			productReference = OBJ_36 /* SwiftBenSONTests.xctest */;
+			productReference = OBJ_38 /* SwiftBenSONTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -211,61 +217,63 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_34 /* Products */;
+			productRefGroup = OBJ_36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_37 /* SwiftBenSON */,
-				OBJ_60 /* SwiftBenSONTests */,
+				OBJ_39 /* SwiftBenSON */,
+				OBJ_63 /* SwiftBenSONTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_41 /* Sources */ = {
+		OBJ_43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_42 /* ArrayParser.swift in Sources */,
-				OBJ_43 /* BenSONable.swift in Sources */,
-				OBJ_44 /* BenSONFormatter.swift in Sources */,
-				OBJ_45 /* BenSONParseError.swift in Sources */,
-				OBJ_46 /* BenSONParser.swift in Sources */,
-				OBJ_47 /* ByteParser.swift in Sources */,
-				OBJ_48 /* BytesReader.swift in Sources */,
-				OBJ_49 /* DataParser.swift in Sources */,
-				OBJ_50 /* NumericalParser.swift in Sources */,
-				OBJ_51 /* ObjectParser.swift in Sources */,
-				OBJ_52 /* ParseIterator.swift in Sources */,
-				OBJ_53 /* String+BenSONable.swift in Sources */,
-				OBJ_54 /* StringParser.swift in Sources */,
-				OBJ_55 /* SubscriptPath.swift in Sources */,
-				OBJ_56 /* TagParser.swift in Sources */,
-				OBJ_57 /* TypedParser.swift in Sources */,
-				OBJ_58 /* TypeSpec.swift in Sources */,
+				OBJ_44 /* ArrayParser.swift in Sources */,
+				OBJ_45 /* BenSONable.swift in Sources */,
+				OBJ_46 /* BenSONFormatter.swift in Sources */,
+				OBJ_47 /* BenSONParseError.swift in Sources */,
+				OBJ_48 /* BenSONParser.swift in Sources */,
+				OBJ_49 /* ByteParser.swift in Sources */,
+				OBJ_50 /* BytesReader.swift in Sources */,
+				OBJ_51 /* Data+BenSONable.swift in Sources */,
+				OBJ_52 /* DataParser.swift in Sources */,
+				OBJ_53 /* NumericalParser.swift in Sources */,
+				OBJ_54 /* ObjectParser.swift in Sources */,
+				OBJ_55 /* ParseIterator.swift in Sources */,
+				OBJ_56 /* String+BenSONable.swift in Sources */,
+				OBJ_57 /* StringParser.swift in Sources */,
+				OBJ_58 /* SubscriptPath.swift in Sources */,
+				OBJ_59 /* TagParser.swift in Sources */,
+				OBJ_60 /* TypedParser.swift in Sources */,
+				OBJ_61 /* TypeSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_64 /* Sources */ = {
+		OBJ_67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_65 /* ArrayParserTests.swift in Sources */,
-				OBJ_66 /* DataParserTests.swift in Sources */,
-				OBJ_67 /* NumberParserTests.swift in Sources */,
-				OBJ_68 /* ObjectParserTests.swift in Sources */,
-				OBJ_69 /* StringParserTests.swift in Sources */,
-				OBJ_70 /* TypedParserTests.swift in Sources */,
+				OBJ_68 /* ArrayParserTests.swift in Sources */,
+				OBJ_69 /* DataParserTests.swift in Sources */,
+				OBJ_70 /* DataWritingTests.swift in Sources */,
+				OBJ_71 /* NumberParserTests.swift in Sources */,
+				OBJ_72 /* ObjectParserTests.swift in Sources */,
+				OBJ_73 /* StringParserTests.swift in Sources */,
+				OBJ_74 /* TypedParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_73 /* PBXTargetDependency */ = {
+		OBJ_77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_37 /* SwiftBenSON */;
-			targetProxy = B5F6FC3A1E9AE93E00ACC71F /* PBXContainerItemProxy */;
+			target = OBJ_39 /* SwiftBenSON */;
+			targetProxy = B5F6FC3F1E9B134B00ACC71F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -293,27 +301,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftBenSON.xcodeproj/SwiftBenSON_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftBenSON;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGET_NAME = SwiftBenSON;
-			};
-			name = Debug;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -335,7 +322,28 @@
 			};
 			name = Release;
 		};
-		OBJ_40 /* Release */ = {
+		OBJ_41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftBenSON.xcodeproj/SwiftBenSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftBenSON;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = SwiftBenSON;
+			};
+			name = Debug;
+		};
+		OBJ_42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -356,7 +364,7 @@
 			};
 			name = Release;
 		};
-		OBJ_62 /* Debug */ = {
+		OBJ_65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -373,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_63 /* Release */ = {
+		OBJ_66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -402,20 +410,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_38 /* Build configuration list for PBXNativeTarget "SwiftBenSON" */ = {
+		OBJ_40 /* Build configuration list for PBXNativeTarget "SwiftBenSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_39 /* Debug */,
-				OBJ_40 /* Release */,
+				OBJ_41 /* Debug */,
+				OBJ_42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_61 /* Build configuration list for PBXNativeTarget "SwiftBenSONTests" */ = {
+		OBJ_64 /* Build configuration list for PBXNativeTarget "SwiftBenSONTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_62 /* Debug */,
-				OBJ_63 /* Release */,
+				OBJ_65 /* Debug */,
+				OBJ_66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

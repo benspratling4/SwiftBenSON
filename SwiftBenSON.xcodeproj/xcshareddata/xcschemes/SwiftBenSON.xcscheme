@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_37"
+               BlueprintIdentifier = "OBJ_39"
                BuildableName = "SwiftBenSON.framework"
                BlueprintName = "SwiftBenSON"
                ReferencedContainer = "container:SwiftBenSON.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_60"
+               BlueprintIdentifier = "OBJ_63"
                BuildableName = "SwiftBenSONTests.xctest"
                BlueprintName = "SwiftBenSONTests"
                ReferencedContainer = "container:SwiftBenSON.xcodeproj">
@@ -55,7 +55,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_37"
+            BlueprintIdentifier = "OBJ_39"
             BuildableName = "SwiftBenSON.framework"
             BlueprintName = "SwiftBenSON"
             ReferencedContainer = "container:SwiftBenSON.xcodeproj">

@@ -21,7 +21,7 @@ open class TypedValueParserTests : XCTestCase {
 	
 	open func testObjectOfString() {
 		
-		let byteReader:BytesReader = reader(for: "<pdf:.pdf>{\"a\":\"b\"}")
+		let byteReader:BytesReader = reader(for: "<pdf:.pdf, com.adobe.pdf>{\"a\":\"b\"}")
 		let parser = ParseIterator(reader: byteReader)
 		let value:Any? = parser.parse()
 		guard let typedValue = value as? TypedValue else {
@@ -30,9 +30,7 @@ open class TypedValueParserTests : XCTestCase {
 		}
 		XCTAssertEqual(typedValue.type.name, "pdf", "didn't parse tag")
 		XCTAssertTrue(typedValue.type.fileExtensions.contains(".pdf"), "didn't parse tag")
-		
+		XCTAssertTrue(typedValue.type.utis.contains("com.adobe.pdf"), "didn't parse tag")
 	}
-
-
 
 }
