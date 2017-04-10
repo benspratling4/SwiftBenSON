@@ -78,7 +78,7 @@ open class DataHexParser : CollectingBytesParser , ByteParser{
 	
 	var highBits:UInt8?
 	
-	static let validChars:CharacterSet = CharacterSet(charactersIn: "0123456789abcdefgABCDEFG ")
+	static let validChars:CharacterSet = CharacterSet(charactersIn: "0123456789abcdefgABCDEFG \n\r\t")
 	
 	public func read(from reader:BytesReader)->ParseAction {
 		guard let byte:UInt8 = reader.read() else {
@@ -88,7 +88,7 @@ open class DataHexParser : CollectingBytesParser , ByteParser{
 			return .invalidFormat
 		}
 		switch UnicodeScalar(byte) {
-		case " ":
+		case " ", "\n", "\r", "\t":
 			return .next
 		case "0"..."9", "a"..."f", "A"..."F":
 			addHexByte(byte)
